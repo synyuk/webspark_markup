@@ -1,0 +1,226 @@
+// ===== Profile Header =====
+
+header {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    min-height: 172px;
+    background: rgba(255, 255, 255, 0.67);
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12), inset 0px 12px 24px rgba(0, 0, 0, 0.12);
+    padding: 6px 0 28px 0;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    @media (max-width: @bp-mobile) {
+        min-height: initial;
+        padding: 6px 0;
+        min-height: 260px;
+    }
+    &.scrolled {
+        background-color: rgba(255,255,255,0.95);
+        box-shadow: 0 2px 10px rgba(0,0,0,.1);
+        backdrop-filter: blur(10px);
+        transition: 0.3s all;
+        @media (max-width: @bp-mobile) {
+            display: flex;
+            align-items: center;
+            height: 50px;
+            min-height: 50px;
+            .header__logo, .header__top, .header__stats{
+                display: none;
+            }
+        }
+    }
+
+    .header__wrap{
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 88px;
+        @media (max-width: @bp-tablet) {
+            gap: 20px;
+        }
+
+        @media (max-width: @bp-mobile) {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .header{
+        // ===== Logo =====
+        &__logo {
+            flex-shrink: 0;
+            width: 138px;
+            height: 138px;
+            svg {
+                width: 100%;
+                height: 100%;
+            }
+
+            @media (max-width: @bp-tablet) {
+                width: 110px;
+                height: 110px;
+            }
+        }
+
+        // ===== Info block =====
+        &__info {
+            padding-bottom: 3px;
+        }
+
+        &__top {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+
+            @media (max-width: @bp-mobile) {
+                justify-content: center;
+            }
+        }
+
+        &__name {
+            font-family: @font-family-secondary;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: -0.01em;
+            color: @color-text-primary;
+
+            @media (max-width: @bp-tablet) {
+                font-size: 20px;
+            }
+
+            @media (max-width: @bp-mobile) {
+                font-size: 18px;
+            }
+        }
+
+        &__start-date {
+            display: inline-block;
+            padding: 5px 10px;
+            border: 1px solid @color-border-blue;
+            border-radius: 2px;
+            font-size: 13px;
+            font-weight: 400;
+            color: @color-text-blue;
+            white-space: nowrap;
+        }
+
+        &__stats {
+            display: flex;
+            gap: 28px;
+            margin-bottom: 19px;
+            font-size: @font-size-base;
+            flex-wrap: wrap;
+
+            @media (max-width: @bp-mobile) {
+                justify-content: center;
+            }
+        }
+
+        &__stat{
+            display: flex;
+            gap: 5px;
+            span{
+                font-weight: 400;
+            }
+            strong {
+                font-weight: 700;
+                color: @color-text-primary;
+            }
+        }
+
+        // ===== Date filters =====
+        &__filters {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+
+            @media (max-width: @bp-mobile) {
+                justify-content: center;
+            }
+        }
+
+        &__filter-label {
+            font-size: 16px;
+            font-weight: 400;
+            margin-right: 11px;
+        }
+
+        &__date-input {
+            display: flex;
+            align-items: center;
+            border: 1px solid @color-border;
+            border-radius: 4px;
+            height: 28px;
+            width: 162px;
+            background: @color-bg-white;
+            @media (max-width: @bp-mobile) {
+                width: 150px;
+            }
+            &:last-child{
+                margin-left: 22px;
+                @media (max-width: @bp-mobile) {
+                    margin-left: 12px;
+                }
+            }
+
+            .date-picker {
+                border: none;
+                outline: none;
+                font-size: 13px;
+                width: calc(100% - 52px);
+                padding: 4px 8px;
+                background: transparent;
+                color: @color-text-primary;
+                cursor: pointer;
+
+            }
+        }
+    }
+
+}
+
+// ===== Date input controls =====
+.date-clear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: @color-bg-grey;
+    border-left: 1px solid @color-border;
+    border-right: 1px solid @color-border;
+    height: 26px;
+    width: 26px;
+
+    iconify-icon{
+        transform: rotate(45deg);
+    }
+
+    &:hover{
+        iconify-icon{
+            opacity: 0.7;
+        }
+    }
+}
+
+.date-calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: @color-bg-grey;
+    height: 26px;
+    width: 26px;
+    &:hover{
+        iconify-icon{
+            opacity: 0.7;
+        }
+    }
+}
