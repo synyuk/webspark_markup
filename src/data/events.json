@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "./src/img/events/10.webp",
+    "image": "/webspark_markup/src/img/events/10.webp",
     "date": "01-01-2026",
     "label": "Today",
     "likes": 128,
@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "image": "./src/img/events/2.webp",
+    "image": "/webspark_markup/src/img/events/2.webp",
     "date": "11-01-2026",
     "label": "Today",
     "likes": 128,
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "image": "./src/img/events/3.webp",
+    "image": "/webspark_markup/src/img/events/3.webp",
     "date": "12-01-2026",
     "label": "Today",
     "likes": 128,
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "image": "./src/img/events/4.webp",
+    "image": "/webspark_markup/src/img/events/4.webp",
     "date": "25-01-2026",
     "label": "Today",
     "likes": 128,
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "image": "./src/img/events/5.webp",
+    "image": "/webspark_markup/src/img/events/5.webp",
     "date": "28-01-2026",
     "label": "Today",
     "likes": 128,
@@ -66,7 +66,7 @@
   },
   {
     "id": 6,
-    "image": "./src/img/events/6.webp",
+    "image": "/webspark_markup/src/img/events/6.webp",
     "date": "04-02-2026",
     "label": "Today",
     "likes": 128,
@@ -79,7 +79,7 @@
   },
   {
     "id": 7,
-    "image": "./src/img/events/7.webp",
+    "image": "/webspark_markup/src/img/events/7.webp",
     "date": "14-02-2026",
     "label": "Today",
     "likes": 128,
@@ -92,7 +92,7 @@
   },
   {
     "id": 8,
-    "image": "./src/img/events/8.webp",
+    "image": "/webspark_markup/src/img/events/8.webp",
     "date": "16-02-2026",
     "label": "Today",
     "likes": 128,
@@ -105,7 +105,7 @@
   },
   {
     "id": 9,
-    "image": "./src/img/events/9.webp",
+    "image": "/webspark_markup/src/img/events/9.webp",
     "date": "17-02-2026",
     "label": "Today",
     "likes": 128,
@@ -118,7 +118,7 @@
   },
   {
     "id": 10,
-    "image": "./src/img/events/1.webp",
+    "image": "/webspark_markup/src/img/events/1.webp",
     "date": "01-03-2026",
     "label": "Today",
     "likes": 128,
@@ -131,7 +131,7 @@
   },
   {
     "id": 11,
-    "image": "./src/img/events/2.webp",
+    "image": "/webspark_markup/src/img/events/2.webp",
     "date": "11-03-2026",
     "label": "Today",
     "likes": 128,
@@ -144,7 +144,7 @@
   },
   {
     "id": 12,
-    "image": "./src/img/events/3.webp",
+    "image": "/webspark_markup/src/img/events/3.webp",
     "date": "12-03-2026",
     "label": "Today",
     "likes": 128,
@@ -157,7 +157,7 @@
   },
   {
     "id": 13,
-    "image": "./src/img/events/4.webp",
+    "image": "/webspark_markup/src/img/events/4.webp",
     "date": "25-03-2026",
     "label": "Today",
     "likes": 128,
@@ -170,7 +170,7 @@
   },
   {
     "id": 14,
-    "image": "./src/img/events/5.webp",
+    "image": "/webspark_markup/src/img/events/5.webp",
     "date": "28-03-2026",
     "label": "Today",
     "likes": 128,
@@ -183,7 +183,7 @@
   },
   {
     "id": 15,
-    "image": "./src/img/events/6.webp",
+    "image": "/webspark_markup/src/img/events/6.webp",
     "date": "04-04-2026",
     "label": "Today",
     "likes": 128,
@@ -196,7 +196,7 @@
   },
   {
     "id": 16,
-    "image": "./src/img/events/7.webp",
+    "image": "/webspark_markup/src/img/events/7.webp",
     "date": "14-04-2026",
     "label": "Today",
     "likes": 128,
@@ -209,7 +209,7 @@
   },
   {
     "id": 17,
-    "image": "./src/img/events/8.webp",
+    "image": "/webspark_markup/src/img/events/8.webp",
     "date": "16-04-2026",
     "label": "Today",
     "likes": 128,
@@ -222,7 +222,7 @@
   },
   {
     "id": 18,
-    "image": "./src/img/events/9.webp",
+    "image": "/webspark_markup/src/img/events/9.webp",
     "date": "17-05-2026",
     "label": "Today",
     "likes": 128,
